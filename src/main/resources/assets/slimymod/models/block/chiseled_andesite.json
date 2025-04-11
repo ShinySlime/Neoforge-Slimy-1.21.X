@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "slimymod:block/chiseled_andesite"
+  }
+}
