@@ -2,9 +2,16 @@
   "item.slimymod.mithril_ingot": "Mithril Ingot",
   "item.slimymod.raw_mithril": "Raw Mithril",
 
-  "block.slimymod.chiseled_andesite": "Chiseled Andesite",
+
   "block.slimymod.deepslate_mithril_ore": "Deepslate Mithril Ore",
   "block.slimymod.mithril_block": "Block of Mithril",
+
+
+  "block.slimymod.chiseled_andesite": "Chiseled Andesite",
+
+  "block.slimymod.cursed_block": "Cursed Block",
+
+  "item.slimymod.knife": "Knife",
 
   "creativetab.slimymod.modded_blocks": "Slimy Blocks",
   "creativetab.slimymod.modded_items": "Slimy Items"

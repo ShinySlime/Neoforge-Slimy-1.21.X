@@ -22,7 +22,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.MITHRIL_BLOCK);
                         output.accept(ModBlocks.DEEPSLATE_MITHRIL_ORE);
+
                         output.accept(ModBlocks.CHISELED_ANDESITE);
+
+                        output.accept(ModBlocks.CURSED_BLOCK);
                     }).build());
 
     public static final Supplier<CreativeModeTab> MODDED_ITEMS_TAB = CREATIVE_MODE_TAB.register("modded_items_tab",
@@ -32,6 +35,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_MITHRIL);
                         output.accept(ModItems.MITHRIL_INGOT);
+
+                        output.accept(ModItems.KNIFE);
                     }).build());
 
     public static void register(IEventBus eventBus) {
