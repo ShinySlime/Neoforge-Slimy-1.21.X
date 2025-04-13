@@ -1,6 +1,6 @@
-package net.deus.slimy.item;
+package net.deus.slimymod.item;
 
-import net.deus.slimy.SlimyMod;
+import net.deus.slimymod.SlimyMod;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;

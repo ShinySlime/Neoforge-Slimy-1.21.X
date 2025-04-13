@@ -1,7 +1,7 @@
-package net.deus.slimy.block;
+package net.deus.slimymod.block;
 
-import net.deus.slimy.SlimyMod;
-import net.deus.slimy.item.ModItems;
+import net.deus.slimymod.SlimyMod;
+import net.deus.slimymod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -21,11 +21,14 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> CHISELED_ANDESITE = registerBlock("chiseled_andesite",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
     public static final DeferredBlock<Block> DEEPSLATE_MITHRIL_ORE = registerBlock("deepslate_mithril_ore",
             () -> new DropExperienceBlock(UniformInt.of(2,4),
-                    BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+                    BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final DeferredBlock<Block> MITHRIL_BLOCK = registerBlock("mithril_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(5f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
 
 

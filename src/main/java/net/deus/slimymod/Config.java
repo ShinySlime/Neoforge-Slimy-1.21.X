@@ -1,4 +1,4 @@
-package net.deus.slimy;
+package net.deus.slimymod;
 
 import java.util.List;
 import java.util.Set;

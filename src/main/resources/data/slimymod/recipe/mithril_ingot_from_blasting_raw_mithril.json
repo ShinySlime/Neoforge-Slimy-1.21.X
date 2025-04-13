@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 7,
+  "group": "mithril_ingot",
+  "ingredient": {
+    "item": "slimymod:raw_mithril"
+  },
+  "result": {
+    "count": 1,
+    "id": "slimymod:mithril_ingot"
+  }
+}

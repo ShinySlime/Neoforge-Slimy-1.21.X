@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "slimymod:mithril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "slimymod:mithril_ingot"
+  }
+}

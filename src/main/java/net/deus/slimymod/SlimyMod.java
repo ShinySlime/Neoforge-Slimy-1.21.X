@@ -1,7 +1,8 @@
-package net.deus.slimy;
+package net.deus.slimymod;
 
-import net.deus.slimy.block.ModBlocks;
-import net.deus.slimy.item.ModItems;
+import net.deus.slimymod.block.ModBlocks;
+import net.deus.slimymod.item.ModCreativeModeTabs;
+import net.deus.slimymod.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -38,6 +39,8 @@ public class SlimyMod
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
